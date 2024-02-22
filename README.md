@@ -1,8 +1,8 @@
 # R-Stock-Forecasting
-Introduction
+## Introduction
 This project focuses on analyzing historical stock data of Amazon and developing models to predict future stock prices. Leveraging time series analysis techniques, we aim to identify trends and patterns in the data and utilize ARIMA models to make accurate predictions.
 
-Methodology
+## Methodology
 Here's an overview of the methodology employed in this project:
 
 Data Extraction: We start by extracting historical stock data from Yahoo Finance using the quantmod package in R.
@@ -15,7 +15,7 @@ Model Building: We proceed to build an ARIMA (AutoRegressive Integrated Moving A
 
 Model Evaluation: Finally, we evaluate the performance of the ARIMA model and interpret the results to assess its accuracy in predicting Amazon stock prices.
 
-Importing Required Packages
+## Importing Required Packages
 Here are the key packages used in our analysis:
 
 tseries: Provides tools for time series analysis, including statistical tests and data manipulation functions.
